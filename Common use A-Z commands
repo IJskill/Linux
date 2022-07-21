@@ -328,8 +328,8 @@
  root@Kali:~# tar -zxvf abc.tar.gz (Remember 'z' for .tar.gz)
  root@Kali:~# tar -jxvf abc.tar.bz2 (Remember 'j' for .tar.bz2)
  root@Kali:~# tar -cvf archieve.tar.gz(.bz2) /path/to/folder/abc
-Note: A „tar.gz„ means gzipped. „tar.bz2„ is compressed with bzip which
-uses a better but slower compression method.
+ Note: A „tar.gz„ means gzipped. „tar.bz2„ is compressed with bzip which
+ uses a better but slower compression method.
 ***************************************************************
 Command: cp
 The “copy” stands for (Copy), it copies a file from one location to another
@@ -352,9 +352,10 @@ The command “pwd” (print working directory), prints the current
 working directory with full path name from terminal.
 root@Kali:~# pwd
 /home/user/Desktop
-Note: This command won‟t be much frequently used in scripting but it is
+This command won‟t be much frequently used in scripting but it is
 an absolute life saver for newbie who gets lost in terminal in their early
 connection with nux. (Linux is most commonly referred as nux or nix).
+**********************************************************
 Command: cd
 Finally, the frequently used “cd” command stands for (change directory),
 it change the working directory to execute, copy, move write, read, etc.
@@ -362,7 +363,7 @@ from terminal itself.
 root@Kali:~# cd /home/user/Desktop
 server@localhost:~$ pwd
 /home/user/Desktop
-Note: cd comes to rescue when switching between directories from
+cd comes to rescue when switching between directories from
 terminal. “Cd ~” will change the working directory to user‟s home
 directory, and is very useful if a user finds himself lost in terminal. “Cd
 ..” will change the working directory to parent directory (of current
